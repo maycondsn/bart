@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
           <Header />
         </div>
         <div id="left" 
-         className='left py-9 bg-slate-100 border-black border rounded'>
+         className='left py-9 bg-slate-100 border-black border rounded-tr'>
           {children}
         </div>
         <div id="right" className='right'>

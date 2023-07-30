@@ -16,8 +16,8 @@ export default async function Question({ params }) {
 
 
   return (
-    <div className="left-over border-t border-black grid justify-center">
-      
+    <div className="left-over grid justify-center">
+        
       <div className="bg-white m-6 border-black border rounded max-w-2xl ">
         <header className="flex p-2 py-8 gap-5 border-b mx-8 border-black">
           <Link href='/'><BiLeftArrowCircle className="text-3xl text-teal-400 hover:bg-white "/></Link>

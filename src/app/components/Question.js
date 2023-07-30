@@ -9,7 +9,7 @@ export default function Question(props) {
     <Link 
     href={`/pages/question/${props.id}`} 
     className='border-b border-black mx-6 flex text-left mb-3'>
-      <div className='grid gap-2 p-6 pt-2 '>
+      <div className='grid gap-2 p-6 pt-2'>
         
         <div className="hover:text-teal-900">
           <h1 className='text-xl font-semibold pb-2'>{props.title}</h1>

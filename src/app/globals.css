@@ -85,7 +85,7 @@ input:active {
 /* Works on Firefox */
 * {
   scrollbar-width: thin;
-  scrollbar-color: #FFFFFF  ;
+  scrollbar-color: transparent  ;
 }
 
 /* Works on Chrome, Edge, and Safari */
