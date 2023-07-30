@@ -1,17 +1,10 @@
-import Question from "@/components/Question";
-
-
+import Question from "@/app/components/Question";
 
 export default function RightSide() {
     return(
-        <section aria-label='rightSide' className='bg-white border-l border-black'>
+        <section aria-label='rightSide' className='bg-white'>
             <Question />
-            <Question />
-            <Question />
-            <Question />
-            <Question />
-            <Question />
-            <Question />
+            
         </section>
     )
 }

@@ -1,6 +1,6 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
-import Header from '@/components/Header'
+import Header from '@/app/components/Header'
 import RightSide from './pages/RightSide'
 import LeftSide from './pages/LeftSide'
 
@@ -11,19 +11,6 @@ export const metadata = {
   description: 'Chat in real time',
 }
 
-/* 
-  <Header className="fixed"/>
-
-  <main className='grid grid-cols-2 bg-slate-100  -index-1 '>
-
-    {children}
-    <RightSide />
-  </main>     
-*/
-
-
-
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -32,7 +19,7 @@ export default function RootLayout({ children }) {
         <div id="menu" className="menu">
           <Header />
         </div>
-        <div id="left" className='left py-9 bg-slate-100'>
+        <div id="left" className='left py-9 bg-slate-100 border-black border-r'>
           {children}
         </div>
         <div id="right" className='right'>
