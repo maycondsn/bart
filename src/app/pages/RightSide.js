@@ -5,7 +5,8 @@ export default async function RightSide() {
     const response = await fetch('https://jsonplaceholder.typicode.com/posts', {
       cache: 'no-store',
     })
-    const data = await response.json()
+    const reverseData = await response.json()
+    const data = await reverseData.reverse()
 
     return(
         <section aria-label='rightSide' className='bg-white'>
