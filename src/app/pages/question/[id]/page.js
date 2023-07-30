@@ -34,6 +34,8 @@ export default async function Question({ params }) {
           <p>
           {question.body}
           </p>
+
+          {/* Answers */}
           <span className="text-xl font-semibold">2 Answers</span>
           <div className=" flex before:content-[''] gap-4 before:w-2 before:h-2/4 before:bg-teal-400">
             <p className="text-base text-[''] line-height-3">
