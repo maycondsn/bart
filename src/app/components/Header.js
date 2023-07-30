@@ -22,7 +22,7 @@ export default async function Header() {
 
             {/* Infos */}
             <div 
-            className="flex bg-white absolute gap-5 justify-between right-0 pt-3 text-xs text-gray-700  ">
+            className="flex bg-white absolute gap-5 justify-between right-0 pt-2 text-xs text-gray-700  ">
                 <div className="pl-6 gap-2 flex">
                     <BiMessageAlt className="text-base"/>
                     <span className="pb-3">{Object.keys(data).length} Questions</span>

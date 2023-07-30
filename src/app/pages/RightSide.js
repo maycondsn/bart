@@ -9,7 +9,7 @@ export default async function RightSide() {
     const data = await reverseData.reverse()
 
     return(
-        <section aria-label='rightSide' className='bg-white relative'>
+        <section aria-label='rightSide' className='bg-white relative border-black border-t'>
             
             {data.map((item) => (
                 <Question key={item.id} id={item.id} title={item.title} body={item.body} />
