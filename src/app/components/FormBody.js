@@ -28,7 +28,7 @@ export default function FormBody() {
                         <textarea id='message' name='message' cols='30' rows='8'
                         className='border border-black rounded text-sm p-3 w-full active:border-teal-500'
                         onFocus={() => {setInputActive(true)}} onBlur={() => setInputActive(false)} 
-                        >AAAA</textarea>
+                        ></textarea>
                         </div>
                     </div>
                     </form>

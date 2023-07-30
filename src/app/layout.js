@@ -19,7 +19,8 @@ export default function RootLayout({ children }) {
         <div id="menu" className="menu">
           <Header />
         </div>
-        <div id="left" className='left py-9 bg-slate-100 border-black border-r'>
+        <div id="left" 
+         className='left py-9 bg-slate-100 border-black border rounded'>
           {children}
         </div>
         <div id="right" className='right'>

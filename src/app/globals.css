@@ -41,7 +41,7 @@ input:active {
 
 .menu {
   width: 100%;
-  height: 10vh;
+  height: 8vh;
   position: fixed; /* Fixa o menu na parte superior da tela */
   top: 0;
   left: 0;
@@ -49,24 +49,22 @@ input:active {
 
 .left {
   width: 50%;
-  height: 90vh;
+  height: 92vh;
   float: left;
   position: fixed; /* Fixa o bloco esquerdo à esquerda da tela */
-  top: 10vh; /* A posição vertical do bloco esquerdo começa logo abaixo do menu */
+  top: 8vh; /* A posição vertical do bloco esquerdo começa logo abaixo do menu */
   left: 0;
-  border-top: 1px solid #000000;
   overflow-y: hidden;
 }
 
 
 .right {
   width: 50%;
-  height: 90vh;
-  border-top: 1px solid #000000;
+  height: 92vh;
   float: right;
   overflow-y: scroll; /* Adiciona uma barra de rolagem apenas ao bloco direito */
   position: fixed; /* Fixa o bloco direito à direita da tela */
-  top: 10vh; /* A posição vertical do bloco direito começa logo abaixo do menu */
+  top: 8vh; /* A posição vertical do bloco direito começa logo abaixo do menu */
   right: 0;
 }
 
