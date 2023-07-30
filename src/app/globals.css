@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input:active {
+  border-color: aqua;
+}
+
+.line-height-2 {
+  line-height: 2rem;
+}
+
+.line-height-3 {
+  line-height: 1.625rem;
+}
+
+.before-shadow::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  left: 5px;
+  bottom: 5px;
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  position: absolute;
+
+}
+
+.before-shadow-1::before {
+  content: '';
+  height: 100%;
+  width: 2px;
+  position: absolute;
+  background-color: aqua;
+}
+
+*:focus {
+  outline: none;
+}
+
+.menu {
+  width: 100%;
+  height: 10vh;
+  position: fixed; /* Fixa o menu na parte superior da tela */
+  top: 0;
+  left: 0;
+}
+
+.left {
+  width: 50%;
+  height: 90vh;
+  float: left;
+  position: fixed; /* Fixa o bloco esquerdo à esquerda da tela */
+  top: 10vh; /* A posição vertical do bloco esquerdo começa logo abaixo do menu */
+  left: 0;
+  border-top: 1px solid #000000;
+  overflow-y: hidden;
+}
+
+
+.right {
+  width: 50%;
+  height: 90vh;
+  border-top: 1px solid #000000;
+  float: right;
+  overflow-y: scroll; /* Adiciona uma barra de rolagem apenas ao bloco direito */
+  position: fixed; /* Fixa o bloco direito à direita da tela */
+  top: 10vh; /* A posição vertical do bloco direito começa logo abaixo do menu */
+  right: 0;
+}
+
+.left-over {
+  width: 50%;
+  height: 90vh;
+  float: left;
+  position: fixed; /* Fixa o bloco esquerdo à esquerda da tela */
+  top: 10vh; /* A posição vertical do bloco esquerdo começa logo abaixo do menu */
+  left: 0;
+  overflow-y: scroll;
+}
+
+.left-over:hover {
+  overflow-y: scroll;
+}
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #FFFFFF  ;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
