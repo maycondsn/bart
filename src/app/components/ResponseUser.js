@@ -11,7 +11,8 @@ export default function ResponseUser() {
                     <form className='w-full'>
                         <input
                             placeholder="Enter your Username"
-                            className="w-full border border-gray-300 text-xs p-3 rounded" />
+                            className="w-full border border-gray-300 text-xs p-3 rounded
+                            focus:border-black hover:border-black" />
                     </form>
                 </div>
             </div>
@@ -25,8 +26,8 @@ export default function ResponseUser() {
             <div className="text-right">
             <button className="p-3 px-7 bg-gray-300 text-black rounded 
                 text-xs transition duration-300 ease-in-out
-                focus:bg-teal-500 focus:text-black
-                hover:bg-teal-500 hover:text-black
+                focus:bg-teal-500 focus:text-black focus:border-black
+                hover:bg-teal-500 hover:text-black hover:border-black border
                 ">
                   REPLY
             </button>

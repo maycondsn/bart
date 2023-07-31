@@ -40,9 +40,10 @@ export default async function Question({ params }) {
           </p>
 
           {/* Answers */}
+          <ResponseUser />
+          
           <span className="text-xl font-semibold">2 Answers</span>
 
-          <ResponseUser />
           <ResponseQuestion />
           <ResponseQuestion />
           
