@@ -11,7 +11,7 @@ export default function Question(props) {
     className='border-b border-black mx-6 flex text-left mb-3'>
       <div className='grid gap-2 p-6 pt-2'>
         
-        <div className="hover:text-teal-900">
+        <div className="hover:text-gray-500">
           <h1 className='text-xl font-semibold pb-2'>{props.title}</h1>
           <p className='text-sm' >{props.body}</p>
         </div>

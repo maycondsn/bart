@@ -1,10 +1,8 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
+import { Roboto } from 'next/font/google'
 import Header from '@/app/components/Header'
 import RightSide from './pages/RightSide'
-import LeftSide from './pages/LeftSide'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'BART | chat',

@@ -2,6 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.inter-regular{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+.inter-medium{
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+.inter-semib{
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+.inter-bold{
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
 input:active {
   border-color: aqua;
 }

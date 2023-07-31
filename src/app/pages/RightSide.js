@@ -11,9 +11,11 @@ export default async function RightSide() {
     return(
         <section aria-label='rightSide' className='bg-white relative'>
             <div className="w-full h-px bg-black fixed"></div>
+            <div className="pt-5">
             {data.map((item) => (
                 <Question key={item.id} id={item.id} title={item.title} body={item.body} />
             ))}
+            </div>
 
         </section>
     )
