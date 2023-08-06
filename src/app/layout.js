@@ -1,6 +1,4 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
-import { Roboto } from 'next/font/google'
 import Header from '@/app/components/Header'
 import RightSide from './pages/RightSide'
 

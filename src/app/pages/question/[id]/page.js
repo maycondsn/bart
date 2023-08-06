@@ -30,7 +30,7 @@ export default async function Question({ params }) {
                 <AiOutlineEye className="text-lg"/>Viewed 1 times
               </span>
             </div>
-            <h1 className="text-3xl font-bold pt-3">${question.title}</h1>
+            <h1 className="text-3xl font-bold pt-3">{question.title}</h1>
           </div>
         </header>
 

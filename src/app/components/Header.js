@@ -12,8 +12,9 @@ export default async function Header() {
   
 
     return(
-        <header className='flex justify-center relative py-3 bg-white  top-0'>
-
+        <div>
+            <div className='content-none h-1 w-full bg-teal-400 border-b border-gray-100'></div>
+            <header className='flex justify-center relative py-2 bg-white  top-0'>
             {/* Logo */}
             <a href="/" className='flex gap-2'>
                 <BiCodeBlock className='text-teal-400 text-3xl align-middle'/>
@@ -32,7 +33,8 @@ export default async function Header() {
                     <span className="pr-8 pb-3">Scroll Down</span>
                 </div>
                 
-            </div>
-        </header>
+                </div>
+            </header>
+        </div>
     )
 }
